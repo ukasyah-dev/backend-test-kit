@@ -2,6 +2,11 @@
 name = "backend-test-kit"
 version = "0.0.1"
 edition = "2021"
+description = "Provides a set of tools and helpers for testing backend services in Rust."
+keywords = ["backend", "backend-service", "testing"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/ukasyah-dev/backend-test-kit"
 
 [dependencies]
 reqwest = { version = "0.12.12", features = ["json"] }
