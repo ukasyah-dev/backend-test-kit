@@ -1,0 +1,14 @@
+name: Publish
+
+on:
+  release:
+    types:
+      - published
+  workflow_dispatch:
+
+jobs:
+  publish:
+    uses: ukasyah-dev/actions/.github/workflows/publish-crate.yml@main
+    permissions:
+      contents: read
+    secrets: inherit
